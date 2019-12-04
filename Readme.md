@@ -28,7 +28,8 @@ Usado para conteneirizar a aplicação facilitando sua execução e manutenção
 
 ### MongoDB Atlas
 Banco como serviço usado como base de dados para a aplicação
-
+### Git Flow
+Ferramenta utilizada para melhor gerenciar o versionamento do projeto ( ex: branchs, commits)
 #
 
 
