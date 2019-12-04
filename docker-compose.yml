@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - 81:3001
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    build: ./frontend
+    ports:
+      - 80:3000
+    volumes:
+      - ./frontend:/app
+
+  
+# mongodb:///root:exemple@mongo:27017/vaibem
+#  command: [cd /app/ && npm install && npm start]
+#  command: [npm install && npm start
+
