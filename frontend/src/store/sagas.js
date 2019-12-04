@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import { getUserId } from './selectors';
 
-// const base_url = 'http://localhost:3001'
+// const base_url = 'http://localhost:81'
 const base_url = process.env.REACT_APP_HUBTEC_API;
 
 

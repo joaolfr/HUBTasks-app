@@ -72,3 +72,6 @@ Algumas deles foram:
 
 9. Adicionar alguns indicadores de status (activity loader) para dar ao cliente noção de telas carregando 
   ou requisições sendo efetuadas.
+
+10. Proporcionar ao usuário ações como resgatar tasks antigas, a funcionalidade SOFT DELETE foi implementada
+no backend porém o usuário não tem conhecimento da mesma ainda. 
