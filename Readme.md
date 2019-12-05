@@ -1,6 +1,6 @@
 # HUB _tasks_ - Aplicação para gerenciamento de tarefas
 
-A aplicação está hospedada na plataforma HEROKU e pode ser acessada clicando [Aqui](https://app-hubtasks.herokuapp.com/) 
+A aplicação está hospedada na plataforma HEROKU e pode ser acessada clicando [Aqui](https://app-hubtasks.herokuapp.com/)  podendo ser acessada também em um aparelho mobile, visto que a mesma é responsiva.
 ### Usuário para teste:
     email: teste@teste.com
     password: teste
@@ -9,7 +9,7 @@ Para esse usuário foram criadas algumas tasks como exemplo, mas podendo também
 #
 
 
-Para rodar a aplicação localmente clone o projeto e digite no terminal dentro do diretório do projeto:
+Para rodar a aplicação localmente, com o docker instalado em sua máquina, clone o projeto e digite no terminal dentro do diretório do projeto:
 
     docker-compose up --build -d
 E acesse:
@@ -24,12 +24,12 @@ No desenvolvimento desse projeto foram usadas as seguintes tecnologias:
 E as seguintes ferramentas:
 
 ### Docker
-Usado para conteneirizar a aplicação facilitando sua execução e manutenção.
+Usado para conteneirizar a aplicação facilitando sua execução e manutenção. Utilizei pois mesmo sendo um requisito não obrigatório da entrega, facilita a manutenção da aplicação quando hospedada em algum servidor de produção.
 
 ### MongoDB Atlas
-Banco como serviço usado como base de dados para a aplicação
+Banco como serviço usado como base de dados para a aplicação. Foi utilizado por ser um serviço gratuito online de banco além de centralizar os dados da aplicação não importa onde esteja sendo executada.
 ### Git Flow
-Ferramenta utilizada para melhor gerenciar o versionamento do projeto ( ex: branchs, commits)
+Ferramenta utilizada para melhor gerenciar o versionamento do projeto ( ex: branchs, commits).
 #
 
 
@@ -46,12 +46,12 @@ Algumas deles foram:
   - __Axios__: biblioteca usada para realização de chamadas REST
   - __React Router Dom__: usado para navegação entre páginas e componentes no React
   - __Redux__: provê um melhor controle da aplicação, possibilitando um melhor controle do estado global da aplicação
-  - __Redux Saga__: middleware utilizado para gerenciar os side-effects da aplicação, assim como ações assíncronas.
+  - __Redux Saga__: middleware utilizado para gerenciar os side-effects da aplicação, assim como ações assíncronas referentes principalmente a chamadas HTTP.
   
   #
   ## MELHORIAS
   
- Aqui irei listar possíveis melhorias que poderiam ser feitas posteriormente com a evolução do projeto
+ Aqui irei listar possíveis melhorias que poderiam ser feitas com uma suposta decisão de evolução do projeto
  
  
 1. Caso o backend precise ser publicamente exposto, poderia ser adicionado uma interface para documentação do mesmo, tal como SWAGGER.
@@ -75,3 +75,5 @@ Algumas deles foram:
 
 10. Proporcionar ao usuário ações como resgatar tasks antigas, a funcionalidade SOFT DELETE foi implementada
 no backend porém o usuário não tem conhecimento da mesma ainda. 
+
+
